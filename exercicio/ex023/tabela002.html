@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
@@ -25,16 +26,20 @@
             background-color: lightgray;
 
         }
-        thead{
-            background-color: grey;
+        thead, tfoot{
+            background-color: #383838;
             color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
 
         }
-        tfoot{
-            background-color: grey;
-            color: white;
-
-        }
+       
         td.num{
             text-align: right;
         }
@@ -180,5 +185,12 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia deserunt officia fugit minus temporibus illo possimus ab architecto vel hic, odit corrupti aliquid quos, quia explicabo sunt dicta laboriosam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nesciunt aperiam quos illo nam voluptatum hic. Doloremque cupiditate, exercitationem maiores dolore, amet dolores molestiae deleniti fugit, velit aut vero quod! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos deserunt ipsum voluptates voluptas vitae error ut ad rem officia veniam? Perferendis saepe sit quaerat iusto eius nesciunt voluptatem. Rerum, consequatur.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia deserunt officia fugit minus temporibus illo possimus ab architecto vel hic, odit corrupti aliquid quos, quia explicabo sunt dicta laboriosam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nesciunt aperiam quos illo nam voluptatum hic. Doloremque cupiditate, exercitationem maiores dolore, amet dolores molestiae deleniti fugit, velit aut vero quod! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos deserunt ipsum voluptates voluptas vitae error ut ad rem officia veniam? Perferendis saepe sit quaerat iusto eius nesciunt voluptatem. Rerum, consequatur.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia deserunt officia fugit minus temporibus illo possimus ab architecto vel hic, odit corrupti aliquid quos, quia explicabo sunt dicta laboriosam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nesciunt aperiam quos illo nam voluptatum hic. Doloremque cupiditate, exercitationem maiores dolore, amet dolores molestiae deleniti fugit, velit aut vero quod! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos deserunt ipsum voluptates voluptas vitae error ut ad rem officia veniam? Perferendis saepe sit quaerat iusto eius nesciunt voluptatem. Rerum, consequatur.</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia deserunt officia fugit minus temporibus illo possimus ab architecto vel hic, odit corrupti aliquid quos, quia explicabo sunt dicta laboriosam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nesciunt aperiam quos illo nam voluptatum hic. Doloremque cupiditate, exercitationem maiores dolore, amet dolores molestiae deleniti fugit, velit aut vero quod! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos deserunt ipsum voluptates voluptas vitae error ut ad rem officia veniam? Perferendis saepe sit quaerat iusto eius nesciunt voluptatem. Rerum, consequatur.</p>
 </body>
 </html>
