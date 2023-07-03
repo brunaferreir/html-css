@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
-/*Aparelho em pé (potraind) */
+/*Aparelho em pé (potraint) */
+
+body{
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}
